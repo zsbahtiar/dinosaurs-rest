@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "heroku-postbuild": "npm run build",
-    "start": "serve -s dist",
-    "dev": "nodemon --exec babel-node src",
+    "start": "nodemon --exec babel-node src",
     "build": "babel src -s -D -d dist"
   },
   "keywords": [],
