@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel src -s -D -d dist",
     "dev": "nodemon --exec babel-node src",
-    "prod": "babel src -s -D -d dist && nodemon --exec babel-node dist"
+    "prod": "node dist"
   },
   "keywords": [],
   "author": "Zam Zam Saeful Bahtiar",
