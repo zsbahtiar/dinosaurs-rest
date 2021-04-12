@@ -7,7 +7,6 @@ export default {
   expressURI: process.env.EXPRESS_PORT ?? 80,
   db: {
     dialect: process.env.DB_CONN,
-    logging: true,
     protocol: process.env.DB_CONN,
     pool: {
       max: 5,
