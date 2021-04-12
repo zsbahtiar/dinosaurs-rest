@@ -22,8 +22,6 @@ app.post("/create", createDinosaur);
 app.put("/:id/update", updateDinosaur);
 
 
-
-const server = app.listen(config.expressURI || 5000, function () {
-    const port = server.address().port;
-    console.log(`Backend is working on port ${port}`);
-  });
+app.listen(config.expressURI, '0.0.0.0', function(){
+  console.log(`Backend running on ${config.expressURI}`);
+})
