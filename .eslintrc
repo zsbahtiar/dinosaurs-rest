@@ -1,0 +1,27 @@
+{
+  "extends": ["airbnb-base", "prettier", "eslint:recommended"],
+  "plugins": ["import"],
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "indent": ["error", 4],
+    "no-const-assign": "warn",
+    "no-this-before-super": "warn",
+    "no-undef": "warn",
+    "no-unreachable": "warn",
+    "no-unused-vars": "warn",
+    "constructor-super": "warn",
+    "valid-typeof": "warn",
+    "comma-dangle": "off",
+    "no-use-before-define": "off",
+    "no-param-reassign": "off",
+    "no-shadow": "off",
+    "array-callback-return": "off",
+    "padded-blocks": "off"
+  }
+}

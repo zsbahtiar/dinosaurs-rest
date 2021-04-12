@@ -1,0 +1,38 @@
+{
+  "name": "octagon-be-test",
+  "version": "1.0.0",
+  "description": "Dinosaurs Rest by Zam Zam Saeful Bahtiar",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -s -D -d dist",
+    "dev": "nodemon --exec babel-node src",
+    "prod": "nodemon --exec babel-node dist"
+  },
+  "keywords": [],
+  "author": "Zam Zam Saeful Bahtiar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.22.0",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/runtime": "^7.13.10",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  }
+}
