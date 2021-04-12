@@ -4,9 +4,8 @@
   "description": "Dinosaurs Rest by Zam Zam Saeful Bahtiar",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -s -D -d dist",
-    "dev": "nodemon --exec babel-node src",
-    "prod": "node dist"
+    "start": "babel src -s -D -d dist && node dist",
+    "dev": "nodemon --exec babel-node src"
   },
   "keywords": [],
   "author": "Zam Zam Saeful Bahtiar",
