@@ -11,7 +11,7 @@ change all
 - build
 `yarn build` or `npm run build`
 - for production
-`yarn prod` or `npm run prod`
+`yarn start` or `npm run start`
 
 
 ## List Endpoint
@@ -20,7 +20,7 @@ change all
 - /create
 `method: POST`
 ```
-body: {
+{
   "name": "Brachiosaurus",
   "description": "Brachiosaurus adalah salah satu jenis dinosaurus herbivora dari kelompok Saurischia pinggul dan termasuk ke dalam kelompok Sauropodomorpha (Sauropoda).Brachiosaurus adalah salah satu dinosaurus raksasa yang sudah dikenali dengan sangat baik.nama ilmiah dari Brachiosaurus adalah mentresureo.",
   "type": "Sauropod"
@@ -31,7 +31,7 @@ body: {
 - /:id/update
 `method: PUT`
 ```
-body: {
+{
   "name": "Brachiosaurus",
   "description": "Brachiosaurus adalah salah satu jenis dinosaurus herbivora dari kelompok Saurischia pinggul dan termasuk ke dalam kelompok Sauropodomorpha (Sauropoda).Brachiosaurus adalah salah satu dinosaurus raksasa yang sudah dikenali dengan sangat baik.nama ilmiah dari Brachiosaurus adalah mentresureo.",
   "type": "Sauropod"
@@ -40,7 +40,7 @@ body: {
 - /:id/delete
 `method: DELETE`
 
-Live Demo: 
+Live Demo: [Click here](https://dinousaurs-rest.herokuapp.com/)
 
 
 Made with:
