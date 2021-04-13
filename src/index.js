@@ -9,6 +9,7 @@ import {
   deleteDinosaur,
   updateDinosaur,
 } from "./controller/DinosaurController";
+import result from "../results.json";
 
 const app = express();
 app.use(cors());
@@ -20,6 +21,9 @@ app.get("/:id", getDinosaur);
 app.delete("/:id/delete", deleteDinosaur);
 app.post("/create", createDinosaur);
 app.put("/:id/update", updateDinosaur);
+app.get("/json/results", (req,res) => {
+  res.send(result)
+})
 
 
 app.listen(config.expressURI, '0.0.0.0', function(){
