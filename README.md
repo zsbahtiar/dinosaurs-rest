@@ -17,6 +17,7 @@ change all
 ## List Endpoint
 - /
 `method: GET`
+query available: `sort?=asc` or `sort?=desc`
 - /create
 `method: POST`
 ```
@@ -39,6 +40,8 @@ change all
 ```
 - /:id/delete
 `method: DELETE`
+- /json/results
+`method: GET`
 
 Live Demo: [Click here](https://dinousaurs-rest.herokuapp.com/)
 
